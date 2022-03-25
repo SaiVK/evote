@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint .",
     "start": "./node_modules/nodemon/bin/nodemon.js src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -17,6 +19,8 @@
     "fabric-client": "^1.4.10",
     "fabric-network": "~1.4.2",
     "morgan": "^1.9.1",
-    "nodemon": "^1.19.1"
-  }
+    "nodemon": "^1.19.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
