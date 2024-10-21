@@ -12,10 +12,10 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "eslint": "^6.0.1",
-    "express": "^4.17.1",
-    "fabric-ca-client": "~1.4.2",
+    "express": "^4.21.1",
+    "fabric-ca-client": "~1.4.6",
     "fabric-client": "^1.4.10",
-    "fabric-network": "~1.4.2",
+    "fabric-network": "~2.1.0",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1"
   }
