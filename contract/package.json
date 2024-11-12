@@ -16,9 +16,9 @@
     "license": "Apache-2.0",
     "dependencies": {
         "fabric-contract-api": "1.4.1",
-        "fabric-shim": "^1.4.1",
+        "fabric-shim": "^1.4.4",
         "mem": "^5.1.1",
-        "os-locale": "^4.0.0"
+        "os-locale": "^6.0.0"
     },
     "devDependencies": {
         "chai": "^4.2.0",
